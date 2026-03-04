@@ -27,10 +27,11 @@ public class Calculus {
     }
     // showResult
     public static void showResult(double result){
-        System.out.printf("Result: ",result);
+        System.out.printf("Result: %.2f%n",result);
     }
 
 
 }
+
 
 
