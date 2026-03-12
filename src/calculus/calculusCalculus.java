@@ -2,6 +2,7 @@ package calculus;
 
 public class Calculus {
 
+
     // add
     public static double add(double a, double b) {
         return a + b;
@@ -27,11 +28,10 @@ public class Calculus {
     }
     // showResult
     public static void showResult(double result){
-        System.out.printf("Result: %.2f%n",result);
+        System.out.printf("Result: %.2f%n ",result);
     }
 
 
 }
-
 
 
